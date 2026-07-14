@@ -2,3 +2,4 @@ build/
 *.o
 *.ppm
 *.png
+compile_commands.json
