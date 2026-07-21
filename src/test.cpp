@@ -13,6 +13,9 @@ int main()
 
         V3 = V1 + V2;
         assert(V3 == V4);
+
+        V3 = V3 - V2;
+        assert(V3 == V1);
     }
 
     std::cout << "ALL CASES PASSED" << std::endl;
